@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 		<title>CSS Mockup Activity</title>
-	</head>
+	</head>c
 	<body class="sfooter">
 		<div class="sfooter-content">
 

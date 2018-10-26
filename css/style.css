@@ -52,7 +52,7 @@ body { width: 100%;}
 }
 
 /*****************************************************
-* ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
+* ADD YOUR OWN CSS BELOW! (ï¾‰â—•ãƒ®â—•)ï¾‰*:ï½¥ï¾Ÿâœ§
 *
 * HINT: You might want to be conversant with the following:
 * * Shorthand syntax for padding, margin, and borders
@@ -62,5 +62,130 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+h1, em {
+	justify-content:center;
+	font-family: sans-serif;
+	color: #00ff00;
+	display: inline;
+}
+
+img[alt*="welcome"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5vh;
+}
+
+header {
+	background-color:#252625;
+	text-align: center;
+}
+
+img[alt*="janeway"] {
+	height: 150px;
+	float: right;
+	padding:15px
+}
+
+.instructions-content {
+	font-family: monospace;
+	float:left;
+}
+
+.instructions-wrapper {
+	border: 5px solid black;
+	padding:inherit;
+	margin: 10px;
+	display:inline-block;
+}
+
+
+.about-me{
+	background-color:blue;
+	color: white;
+	font-family: monospace;
+	width: 100%;
+	display: inline-block;
+}
+
+img[alt*="captain picard"]{
+	height: 20em;
+	float: left;
+	display:inline-block;
+	border: 2px solid white;
+	margin:2rem
+}
+
+span{
+	color: #FFFB13;
+	font-style: italic;
+}
+
+td, th {
+	border: 1px solid #333333;
+	padding: 0.5rem;
+	color: rgb(117,249,76);
+	background-color: #333333;
+	text-align: left;
+}
+
+table {
+	width: 100%;
+	margin-right: 1vw;
+}
+
+section:nth-of-type(3) h2 {
+	float: right;
+}
+
+.form-wrapper {
+	display: block;
+	height: 400px;
+	background-color: #2A6218;
+	color: #75f94c;
+	padding-top: inherit;
+}
+
+.form-wrapper h2 {
+	position: inherit;
+	margin: 2vw;
+	float: initial;
+}
+
+form {
+	margin-top: 3vh;
+	padding: 6vh 2vw;
+	width: 50%;
+}
+
+form div label {
+	text-align: left;
+	margin-top: 1vh;
+}
+
+form div input, form div textarea {
+
+	width: 43%;
+	margin-right: 30vw;
+}
+
+button {
+	margin-top: 5px;
+	width: 60px;
+	background-color: #75f94c;
+	border-color: #75f94c;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	text-space: 2px;
+}
+
+section:nth-of-type(4){
+	background-color: #333333;
+	padding-bottom: 3vh;
+}
 
 
