@@ -79,6 +79,8 @@ img[alt*="welcome"] {
 header {
 	background-color:#252625;
 	text-align: center;
+	padding: 15px
+
 }
 
 img[alt*="janeway"] {
@@ -90,13 +92,14 @@ img[alt*="janeway"] {
 .instructions-content {
 	font-family: monospace;
 	float:left;
+	word-spacing: normal;
 }
 
 .instructions-wrapper {
 	border: 5px solid black;
 	padding:inherit;
 	margin: 10px;
-	display:inline-block;
+	display:block;
 }
 
 
@@ -117,14 +120,14 @@ img[alt*="captain picard"]{
 }
 
 span{
-	color: #FFFB13;
+	color: #FFFF00;
 	font-style: italic;
 }
 
 td, th {
 	border: 1px solid #333333;
 	padding: 0.5rem;
-	color: rgb(117,249,76);
+	color: #00ff00;
 	background-color: #333333;
 	text-align: left;
 }
@@ -141,39 +144,45 @@ section:nth-of-type(3) h2 {
 .form-wrapper {
 	display: block;
 	height: 400px;
-	background-color: #2A6218;
-	color: #75f94c;
-	padding-top: inherit;
+	background-color: #006400;
+	color: #00FF00;
+	padding-top: 5px;
 }
 
 .form-wrapper h2 {
 	position: inherit;
 	margin: 2vw;
 	float: initial;
+	font-family:sans-serif;
 }
 
 form {
-	margin-top: 3vh;
-	padding: 6vh 2vw;
+	margin-top: auto;
+	padding:3vh 2vw;
 	width: 50%;
+
 }
 
 form div label {
 	text-align: left;
-	margin-top: 1vh;
+	font-family: sans-serif;
+	padding: 5px;
 }
 
 form div input, form div textarea {
-
+	float:inherit;
 	width: 43%;
 	margin-right: 30vw;
+	margin-top: 2px;
 }
 
 button {
 	margin-top: 5px;
 	width: 60px;
-	background-color: #75f94c;
-	border-color: #75f94c;
+	height: 30px;
+	border: 0;
+	box-shadow: none;
+	background-color: #00ff00;
 }
 
 footer {
